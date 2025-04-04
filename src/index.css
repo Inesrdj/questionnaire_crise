@@ -1,13 +1,15 @@
 /* Style de base global */
 html, body, #root {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background-color: #ffffff; /* ✅ Fond blanc partout */
-  color: #000000;            /* ✅ Texte noir partout */
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    overflow-y: auto; /* garanti que le scroll est toujours géré globalement */
+    background-color: #ffffff; /* ✅ Fond blanc partout */
+    color: #000000;            /* ✅ Texte noir partout */
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 /* Liens (si présents) */

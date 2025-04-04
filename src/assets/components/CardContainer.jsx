@@ -2,8 +2,7 @@ export default function CardContainer({ children }) {
   return (
     <div
       style={{
-        height: "100vh",
-        overflow: "hidden",
+        minHeight: "100vh",    // garde la page au minimum égale au viewport
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
